@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="css/text.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Figures</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            #my-canvas { border: 1px solid gray; }
+        </style>
+
+    </head>
+    <body>
+        <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+        
+        <div class="parent">
+            <div class="child"><canvas id="my-canvas" class = element></canvas></div>
+            <div class="child"><span id="aboutText"></span><br> </div> 
+        </div>
+        <script src="script.js"></script>
+        <p>
+            <strong>Координаты курсора: </strong> <span id="coord-live"></span><br>
+            <strong>Координаты точек и площадь: </strong><span id="coord-click"></span>
+        </p>
+        <div>
+            <p style="text-align: center">
+                <button type="reset" id="reset" onclick="reset();">Reset</button>
+                <button type="about" id="about" onclick="about();">About</button> 
+            </p>
+        </div>
+    </body>
+</html>

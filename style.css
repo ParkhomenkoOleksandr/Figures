@@ -1,0 +1,10 @@
+.parent
+{
+	display: flex;
+    flex-direction: row;
+}
+.child
+{
+	display: flex;
+    flex-direction: row;
+}
